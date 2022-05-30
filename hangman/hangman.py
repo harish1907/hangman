@@ -15,8 +15,8 @@ for i in chosen_word:
   display.append('_')
 
 print(logo)
-print(display)
 print(stages[lives])
+print(display)
 
 while True:
   guess = input("Guess a letter: ").lower()
