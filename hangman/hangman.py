@@ -5,7 +5,8 @@ from words import *
 
 chosen_word = random.choice(word_list)
 
-print(f'Pssst, the solution is {chosen_word}.')
+#run this line for test the code and already know the solution.
+#print(f'Pssst, the solution is {chosen_word}.')
 
 display=[]
 lives=6
@@ -13,6 +14,7 @@ lives=6
 for i in chosen_word:
   display.append('_')
 
+print(logo)
 print(display)
 print(stages[lives])
 
